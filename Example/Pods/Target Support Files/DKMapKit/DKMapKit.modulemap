@@ -1,0 +1,6 @@
+framework module DKMapKit {
+  umbrella header "DKMapKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

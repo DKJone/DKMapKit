@@ -1,0 +1,22 @@
+{
+  "name": "DKMapKit",
+  "version": "0.1.0",
+  "summary": "A short description of DKMapKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DKJone/DKMapKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DKJone": "zdk@sinoroad.com"
+  },
+  "source": {
+    "git": "https://github.com/DKJone/DKMapKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DKMapKit/Classes/**/*"
+}

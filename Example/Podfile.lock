@@ -1,0 +1,16 @@
+PODS:
+  - DKMapKit (0.1.0)
+
+DEPENDENCIES:
+  - DKMapKit (from `../`)
+
+EXTERNAL SOURCES:
+  DKMapKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DKMapKit: 998c96fbc73208bbcfda83d2d02d6263370a96e7
+
+PODFILE CHECKSUM: fa4e628d025bf1184ab488fe4877be85b891b1dc
+
+COCOAPODS: 1.6.1
