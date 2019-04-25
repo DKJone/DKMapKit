@@ -79,6 +79,20 @@ Pod::Spec.new do |s|
     }
     \EOF
 
+    # 创建Utils Module
+    rm -rf DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Modules
+    mkdir DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Modules
+    touch DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Modules/module.modulemap
+    cat <<-EOF > DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Modules/module.modulemap
+    framework module BaiduMapAPI_Base {
+        umbrella header "BMKBaseComponent.h"
+        export *
+        link "sqlite3.0"
+        link "c++"
+    }
+    \EOF
+
+
     EOF
 
 end
