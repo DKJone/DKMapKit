@@ -1,0 +1,6 @@
+framework module Verify {
+    umbrella header "DKMapKit.h"
+    export *
+    link "sqlite3.0"
+    link "c++"
+}

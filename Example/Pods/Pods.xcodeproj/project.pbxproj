@@ -16,7 +16,6 @@
 		B73A09B6A61F5525021806BECA840FCD /* Pods-DKMapKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 574D32152B122F7C2BD7797D6A5363FC /* Pods-DKMapKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB3AEB106F2DDA4CD0BEE5ECD1437A77 /* Pods-DKMapKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4EC3011C8F224608A089797E14EEC /* Pods-DKMapKit_Example-dummy.m */; };
 		EA15AD046D8AD0613224B8F4A4669E1E /* Pods-DKMapKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F212AAEB7AD0943B7FDAA00D9E65E90 /* Pods-DKMapKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F91459AD4DBB05F227D2E7290F3AC4D2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714010B0B96E78060F4FAB2B1C93528E /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,34 +37,33 @@
 
 /* Begin PBXFileReference section */
 		03A0DE049953CC2B5AA9B3E0E672B6B8 /* DKMapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKMapKit-prefix.pch"; sourceTree = "<group>"; };
-		23151250F171C64A96F203D171C4DF42 /* Pods_DKMapKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DKMapKit_Tests.framework; path = "Pods-DKMapKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23151250F171C64A96F203D171C4DF42 /* Pods_DKMapKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKMapKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3AA3BC40BBEA731BC9577ADB186D69 /* Pods-DKMapKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKMapKit_Example.modulemap"; sourceTree = "<group>"; };
 		2EF4EC3011C8F224608A089797E14EEC /* Pods-DKMapKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKMapKit_Example-dummy.m"; sourceTree = "<group>"; };
 		2F212AAEB7AD0943B7FDAA00D9E65E90 /* Pods-DKMapKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKMapKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		31E93C0F69B5FF647155716E03EAF17F /* DKMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKMapKit.framework; path = DKMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E93C0F69B5FF647155716E03EAF17F /* DKMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37042E5D979AF71E3FB59E6B16DBC680 /* Pods-DKMapKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKMapKit_Tests.modulemap"; sourceTree = "<group>"; };
 		3A95DE914D80E49EC1B6D706E2A0F748 /* Pods-DKMapKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKMapKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		3DF875C69E1E1CC71E0CEE47655C132A /* Pods-DKMapKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKMapKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5718702B025BEC8FC1E6A37E1C46421F /* DKMapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DKMapKit-Info.plist"; sourceTree = "<group>"; };
 		574D32152B122F7C2BD7797D6A5363FC /* Pods-DKMapKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKMapKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		5BFA1F32E6CFB7C2D1D4BDE10240D278 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5BFA1F32E6CFB7C2D1D4BDE10240D278 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5C22D01708E243B629C8F88528CA4FD8 /* Pods-DKMapKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKMapKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		714010B0B96E78060F4FAB2B1C93528E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DKMapKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7299C74E5F83D712CE33C64A70CF6895 /* DKMapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKMapKit.xcconfig; sourceTree = "<group>"; };
-		7C91C765D3D9EE0214869E103D2E4053 /* Pods_DKMapKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DKMapKit_Example.framework; path = "Pods-DKMapKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ED741A585796865349D8714D5A4185D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C91C765D3D9EE0214869E103D2E4053 /* Pods_DKMapKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKMapKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED741A585796865349D8714D5A4185D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		873050DF0EBC9CFFF18049710CA405B2 /* Pods-DKMapKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKMapKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8D69D97CDBC00122CEA08EAAD8BB3D59 /* Pods-DKMapKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKMapKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		9448437AB04C8E61519E1BDA290BD145 /* Pods-DKMapKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKMapKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		98E80A89EDF177313D08BF788D0BC608 /* Pods-DKMapKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKMapKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		994E0083F4BF0D55B4B7588E653B213C /* Pods-DKMapKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKMapKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A02CBDC5916090C954A55E496B155209 /* Pods-DKMapKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKMapKit_Example-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D14357D43FB96784F0DACAAEC97A7F72 /* Pods-DKMapKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKMapKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D248935FB65E42B5895D231091FA1211 /* DKMapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKMapKit-dummy.m"; sourceTree = "<group>"; };
 		D85862977B7473D2011610E9162503A0 /* DKMapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKMapKit.modulemap; sourceTree = "<group>"; };
-		D8AD26D58B44A557C83B3E7C4798ADA9 /* DKMapKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DKMapKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8AD26D58B44A557C83B3E7C4798ADA9 /* DKMapKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DKMapKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DC388111B3935362DEEC7C50865335B0 /* DKMapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKMapKit-umbrella.h"; sourceTree = "<group>"; };
 		E071FF282562DAFAB193EE9382A9663D /* Pods-DKMapKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKMapKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E45482AFAD79EAB0285AEC3A91C4D89B /* Pods-DKMapKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKMapKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 		97C39ACB20448CCF4459F5FD30C3AC23 /* DKMapKit */ = {
 			isa = PBXGroup;
 			children = (
-				714010B0B96E78060F4FAB2B1C93528E /* ReplaceMe.swift */,
 				2EAAB1CF158C2F53A528285F97A4173A /* Pod */,
 				B7AB8B027BFF526A97B6FEB22113A697 /* Support Files */,
 			);
@@ -315,12 +312,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					684754272C29E385FE0EC0BD164B9908 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -373,7 +376,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				43420ED1AD67A5320EDD1E7966E34DEC /* DKMapKit-dummy.m in Sources */,
-				F91459AD4DBB05F227D2E7290F3AC4D2 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7299C74E5F83D712CE33C64A70CF6895 /* DKMapKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,7 +430,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -461,6 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -494,6 +499,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -528,6 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -561,6 +568,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -636,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7299C74E5F83D712CE33C64A70CF6895 /* DKMapKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -656,7 +665,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -717,8 +726,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
