@@ -1,0 +1,6 @@
+framework module BaiduMapAPI_Cloud {
+    umbrella header "BMKBaseComponent.h"
+    export *
+    link "sqlite3.0"
+    link "c++"
+}

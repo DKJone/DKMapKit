@@ -10,7 +10,7 @@
 #define BMKClusterQuadtree_h
 
 #import <Foundation/Foundation.h>
-#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>
+//#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>
 #import "BMKClusterItem.h"
 
 @interface BMKQuadItem : NSObject
