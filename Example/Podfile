@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DKMapKit_Example' do
+  pod 'DKMapKit', :path => '../'
+
+  target 'DKMapKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
