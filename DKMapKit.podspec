@@ -19,7 +19,10 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
 
     s.source_files = 'DKMapKit/Classes/**/*', 'DKMapKit/Vendors/*.framework/Headers/**.h'
-    s.public_header_files = 'DKMapKit/Classes/**/*.h', 'DKMapKit/Vendors/BadiduMapAPI_Base.framework/Headers/BMKBaseComponent.h', 'DKMapKit/Vendors/BadiduMapAPI_Map.framework/Headers/BMKMapComponent.h'
+    s.public_header_files = 'DKMapKit/Classes/**/*.h', 'DKMapKit/Vendors/BadiduMapAPI_Base.framework/Headers/BMKBaseComponent.h', 'DKMapKit/Vendors/BadiduMapAPI_Map.framework/Headers/BMKMapComponent.h',
+    'DKMapKit/Vendors/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h',
+    'DKMapKit/Vendors/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h',
+    'DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Headers/BMKUtilsComponent.h'
     s.resources = 'DKMapKit/Vendors/BaiduMapAPI_Map.framework/mapapi.bundle'
     #s.module_name = 'BaiduMapKit'
 
