@@ -22,14 +22,14 @@ Pod::Spec.new do |s|
     s.public_header_files = 'DKMapKit/Classes/**/*.h',
     'DKMapKit/Vendors/BadiduMapAPI_Base.framework/Headers/BMKBaseComponent.h',
     'DKMapKit/Vendors/BadiduMapAPI_Map.framework/Headers/BMKMapComponent.h',
-    #'DKMapKit/Vendors/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h',
+  #'DKMapKit/Vendors/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h',
     #'DKMapKit/Vendors/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h',
     #'DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Headers/BMKUtilsComponent.h'
 
     s.resources = 'DKMapKit/Vendors/BaiduMapAPI_Map.framework/mapapi.bundle'
     #s.module_name = 'BaiduMapKit'
 
-    s.frameworks   =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony'
+    s.frameworks   =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony','MobileCoreServices'
     s.libraries    = 'sqlite3.0', 'c++'
 
     s.vendored_frameworks =  'DKMapKit/Vendors/*.framework'
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
         #'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/DKMapKit/Vendors',
         'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/DKMapKit/Vendors/*.framework/Headers',
         'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/DKMapKit/Vendors/',
-        'OTHER_LDFLAGS' => '-ObjC'
+        'OTHER_LDFLAGS' => '-ObjC','-all_load'
     }
 
     s.prepare_command = <<-EOF

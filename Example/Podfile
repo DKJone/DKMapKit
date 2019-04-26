@@ -5,5 +5,4 @@ target 'DKMapKit_Example' do
   pod 'DKMapKit', :path => '../'
 
     
-  end
 end

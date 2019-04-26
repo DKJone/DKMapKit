@@ -4,7 +4,7 @@ GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DKMapKit/DKMapKit.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../DKMapKit/Vendors/thirdlibs"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3.0" -framework "CoreLocation" -framework "DKMapKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3.0" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "DKMapKit" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
