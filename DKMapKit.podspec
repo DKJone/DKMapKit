@@ -19,10 +19,13 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
 
     s.source_files = 'DKMapKit/Classes/**/*', 'DKMapKit/Vendors/*.framework/Headers/**.h'
-    s.public_header_files = 'DKMapKit/Classes/**/*.h', 'DKMapKit/Vendors/BadiduMapAPI_Base.framework/Headers/BMKBaseComponent.h', 'DKMapKit/Vendors/BadiduMapAPI_Map.framework/Headers/BMKMapComponent.h',
-    'DKMapKit/Vendors/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h',
-    'DKMapKit/Vendors/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h',
-    'DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Headers/BMKUtilsComponent.h'
+    s.public_header_files = 'DKMapKit/Classes/**/*.h',
+    'DKMapKit/Vendors/BadiduMapAPI_Base.framework/Headers/BMKBaseComponent.h',
+    'DKMapKit/Vendors/BadiduMapAPI_Map.framework/Headers/BMKMapComponent.h',
+    #'DKMapKit/Vendors/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h',
+    #'DKMapKit/Vendors/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h',
+    #'DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Headers/BMKUtilsComponent.h'
+
     s.resources = 'DKMapKit/Vendors/BaiduMapAPI_Map.framework/mapapi.bundle'
     #s.module_name = 'BaiduMapKit'
 
@@ -54,7 +57,6 @@ Pod::Spec.new do |s|
         link "c++"
     }
     \EOF
-
 
     # 创建Base Module
     rm -rf DKMapKit/Vendors/BaiduMapAPI_Base.framework/Modules
@@ -88,7 +90,7 @@ Pod::Spec.new do |s|
     touch DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Modules/module.modulemap
     cat <<-EOF > DKMapKit/Vendors/BaiduMapAPI_Utils.framework/Modules/module.modulemap
     framework module BaiduMapAPI_Utils {
-        umbrella header "BMKBaseComponent.h"
+        umbrella header "BMKUtilsComponent.h"
         export *
         link "sqlite3.0"
         link "c++"
@@ -101,7 +103,7 @@ Pod::Spec.new do |s|
     touch DKMapKit/Vendors/BaiduMapAPI_Search.framework/Modules/module.modulemap
     cat <<-EOF > DKMapKit/Vendors/BaiduMapAPI_Search.framework/Modules/module.modulemap
     framework module BaiduMapAPI_Search {
-        umbrella header "BMKBaseComponent.h"
+        umbrella header "BMKSearchComponent.h"
         export *
         link "sqlite3.0"
         link "c++"
@@ -114,13 +116,12 @@ Pod::Spec.new do |s|
     touch DKMapKit/Vendors/BaiduMapAPI_Cloud.framework/Modules/module.modulemap
     cat <<-EOF > DKMapKit/Vendors/BaiduMapAPI_Cloud.framework/Modules/module.modulemap
     framework module BaiduMapAPI_Cloud {
-        umbrella header "BMKBaseComponent.h"
+        umbrella header "BMKCloudSearchComponent.h"
         export *
         link "sqlite3.0"
         link "c++"
     }
     \EOF
-
 
     EOF
 

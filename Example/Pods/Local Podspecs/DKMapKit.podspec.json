@@ -1,22 +1,53 @@
 {
   "name": "DKMapKit",
-  "version": "0.1.0",
-  "summary": "A short description of DKMapKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "百度地图Swift Api",
   "homepage": "https://github.com/DKJone/DKMapKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "DKJone": "zdk@sinoroad.com"
+    "dkjone": "1136165636@qq.com"
   },
   "source": {
     "git": "https://github.com/DKJone/DKMapKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "DKMapKit/Classes/**/*"
+  "source_files": [
+    "DKMapKit/Classes/**/*",
+    "DKMapKit/Vendors/*.framework/Headers/**.h"
+  ],
+  "frameworks": "CoreLocation",
+  "public_header_files": [
+    "DKMapKit/Classes/**/*.h",
+    "DKMapKit/Vendors/BadiduMapAPI_Base.framework/Headers/BMKBaseComponent.h",
+    "DKMapKit/Vendors/BadiduMapAPI_Map.framework/Headers/BMKMapComponent.h",
+    "CoreLocation",
+    "QuartzCore",
+    "OpenGLES",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Security",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "sqlite3.0",
+    "c++"
+  ],
+  "vendored_frameworks": "DKMapKit/Vendors/*.framework",
+  "vendored_libraries": "DKMapKit/Vendors/thirdlibs/*.a",
+  "preserve_paths": [
+    "DKMapKit/Vendors/*.framework",
+    "DKMapKit/Vendors/thirdlibs/*.a"
+  ],
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/DKMapKit/Vendors/*.framework/Headers",
+    "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/DKMapKit/Vendors/",
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "prepare_command": "# 业务Module\nrm -rf DKMapKit/Classes/Modules\nmkdir DKMapKit/Classes/Modules\ntouch DKMapKit/Classes/Modules/module.modulemap\ncat <<-EOF > DKMapKit/Classes/Modules/module.modulemap\nframework module Verify {\n    umbrella header \"DKMapKit.h\"\n    export *\n    link \"sqlite3.0\"\n    link \"c++\"\n}\nEOF\n\n# 创建Base Module\nrm -rf DKMapKit/Vendors/BaiduMapAPI_Base.framework/Modules\nmkdir DKMapKit/Vendors/BaiduMapAPI_Base.framework/Modules\ntouch DKMapKit/Vendors/BaiduMapAPI_Base.framework/Modules/module.modulemap\ncat <<-EOF > DKMapKit/Vendors/BaiduMapAPI_Base.framework/Modules/module.modulemap\nframework module BaiduMapAPI_Base {\n    umbrella header \"BMKBaseComponent.h\"\n    export *\n    link \"sqlite3.0\"\n    link \"c++\"\n}\nEOF\n\n# 创建Map Module\nrm -rf DKMapKit/Vendors/BaiduMapAPI_Map.framework/Modules\nmkdir DKMapKit/Vendors/BaiduMapAPI_Map.framework/Modules\ntouch DKMapKit/Vendors/BaiduMapAPI_Map.framework/Modules/module.modulemap\ncat <<-EOF > DKMapKit/Vendors/BaiduMapAPI_Map.framework/Modules/module.modulemap\nframework module BaiduMapAPI_Map {\n    umbrella header \"BMKMapComponent.h\"\n    export *\n    link \"sqlite3.0\"\n    link \"c++\"\n}\nEOF"
 }
