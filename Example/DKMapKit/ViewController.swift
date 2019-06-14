@@ -17,7 +17,9 @@ class ViewController: UIViewController {
         let mang = BMKClusterManager()
         let mapview = BMKMapView(frame: self.view.bounds)
         view.addSubview(mapview)
-      let ap =  BMKMapPointForCoordinate(CLLocationCoordinate2D.init(latitude: 100, longitude: 112))
+        let ap =  BMKMapPointForCoordinate(CLLocationCoordinate2D.init(latitude: 100, longitude: 112))
+        DKJone().draw()
+        
 
     }
 

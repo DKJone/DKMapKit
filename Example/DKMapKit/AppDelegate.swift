@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import DKMapKit
+import BaiduMapAPI_Base
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+         BMKMapManager().start("d0oPViSdE5a0YNopVvFoojWTNmdXGi97", generalDelegate: nil)
         return true
     }
 

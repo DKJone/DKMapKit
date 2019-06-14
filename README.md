@@ -17,7 +17,7 @@ DKMapKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'DKMapKit'
+ pod 'DKMapKit', git: 'https://github.com/DKJone/DKMapKit.git'
 ```
 
 ## Author

@@ -1,5 +1,5 @@
 PODS:
-  - DKMapKit (0.1.1)
+  - DKMapKit (0.2.0)
 
 DEPENDENCIES:
   - DKMapKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DKMapKit: e38791d9ae0487478d9683f225fc5fa7268a28be
+  DKMapKit: b3b0bc295923994f60f84b9cfc075b78bd4f4cc3
 
 PODFILE CHECKSUM: 5f6cce23d96880b170b88fca106294e5737f44d5
 
