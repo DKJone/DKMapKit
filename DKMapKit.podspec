@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'DKMapKit'
-    s.version          = '0.2.0'
+    s.version          = '0.2.1'
     s.summary          = '百度地图Swift Api'
 
     s.homepage         = 'https://github.com/DKJone/DKMapKit'
